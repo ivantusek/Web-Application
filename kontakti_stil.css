@@ -1,0 +1,155 @@
+
+a:link {background-color:white; text-decoration:none;}
+a:visited {background-color:white; border:green;}
+a:hover {background-color:gray; border:gray;}
+a:active {background-color:red; color:red; border:red;	}
+
+body {
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	background: #EEEFE4;
+	background-image:url(images/bg.jpg);
+	background-repeat:repeat-x;
+}
+*
+
+{
+  margin: 0  0 auto  ;
+ text-align:center;
+ }
+ 
+
+ #naslov {
+
+	width: 75%;
+	height: 200px;
+	text-align:center;
+	position:absolute;
+	left:22%;
+	margin-top:8%;
+	font-size: 18px;
+
+}
+legend {
+ font-weight:  bold;
+ }
+
+.sadrzaj {
+
+	text-align:center;
+}
+
+.sadrzaj fieldset {
+	width:20%;
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:mediumblue;
+}
+.sadrzaj table {
+	width:19%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	height: 40px;
+}
+
+ #container{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 960px;
+}
+.off
+{
+color:#67A0F5;
+}
+
+#leftmenu
+{
+margin-top:350px;
+width:204px;
+float:left;
+}
+
+#leftmenu_top
+{
+width:204px;
+height:14px;
+background-image:url(images/leftmenu_top.png);
+}
+#leftmenu_bottom
+{
+width:204px;
+height:14px;
+background-image:url(images/leftmenu_bottom.png);
+}
+#leftmenu_main
+{
+width:204px;
+height:auto;
+background-color:#1C478E;
+}
+
+#leftmenu_main ul
+{
+list-style: none;
+padding: 0px;
+width:204px;
+}
+
+
+#leftmenu_main h3
+{
+list-style: none;
+padding:0px;
+width:204px;
+color:#FFFFFF;
+padding-left:0px;
+padding-bottom:14px;
+}
+
+#leftmenu_main ul 
+{
+list-style: none;
+padding: 0px;
+width:204px;
+text-align:left;
+}
+
+#leftmenu_main ul  a, #leftmenu_main ul  a:visited
+{
+display:block;
+list-style: none;
+padding: 0px;
+width:192px;
+padding-left:12px;
+padding-top:4px;
+height:30px;
+text-align:left;
+background-image:url(images/leftmenu_link.png);
+background-repeat:repeat-x;
+margin-top:5px;
+color:#FFFFFF;
+text-decoration:none;
+font-size:15px;
+font-weight:bold;
+}
+
+#leftmenu_main ul  a:hover
+{
+color:#87BCF8;
+	
+	
+}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: center;}

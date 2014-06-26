@@ -1,0 +1,94 @@
+<!DOCTYPE html">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Prijava korisnika</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="index.css" type="text/css" />
+  
+  	<script type="text/javascript">
+			// promjeniti imena polja: ime, prezime, korisnicko, ...
+			function provjeriFormu(forma)
+			{
+				var razlog = "";
+			
+				razlog += provjeriPrazno(forma.korisnicko);
+				razlog += provjeriPrazno(forma.zaporka);
+			
+				if(razlog != "")
+				{
+					alert("Nisu popunjena sva polja:\n" + razlog);
+					return false;
+				}
+				else
+					return true;
+			}
+			function provjeriPrazno(polje)
+			{
+				var greska = "";
+				if(polje.value.length == 0)
+				{
+					polje.style.background = 'Yellow';
+					greska = "Polje " + polje.name + " je ostavljeno prazno.\n";
+				}
+				else
+				{
+					polje.style.background = 'White';
+				}
+				return greska;
+			}
+			function provjeriOznaceno(oznaka)
+			{
+				var greska = "";
+				if(oznaka[0].checked == false && oznaka[1].checked == false)
+				{
+					greska = "Potrebno je odabrati  korisnika.\n";
+				}
+				return greska;
+			}
+		</script>
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<form class="form1" action="login_ok.php" method="post"  onsubmit="return provjeriFormu(this)">
+
+			<div class="formtitle">Login</div>
+
+			<div class="input">
+				<div class="inputtext">Korisnicko ime: </div>
+				<div class="inputcontent">
+
+					<input type="text" name="korisnicko" />
+
+				</div>
+			</div>
+
+			<div class="input nobottomborder">
+				<div class="inputtext">Zaporka: </div>
+				<div class="inputcontent">
+
+					<input type="password" name="zaporka" />
+
+				</div>
+			</div>
+
+			<div class="buttons">
+
+				<input class="orangebutton" type="submit" name="login" value="Login" />
+
+				<input class="greybutton" type="submit" name="reset" value="Odustani" />
+				<br/><a href="registracija.html">Registracija korisnika</a>
+
+			</div>
+
+		</form>
+
+	
+
+	</div>	
+</body>
+</html>
