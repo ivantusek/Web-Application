@@ -1,8 +1,7 @@
-
-a:link {background-color:white; text-decoration:none;}
-a:visited {background-color:white; border:green;}
-a:hover {background-color:gray; border:gray;}
-a:active {background-color:red; color:red; border:red;	}
+	a:link {background-color:white; text-decoration:none;}
+	a:visited {background-color:white; border:green;}
+	a:hover {background-color:gray; border:gray;}
+	a:active {background-color:red; color:red; border:red;	}
 
 body {
 	margin: 0 ;
@@ -12,17 +11,18 @@ body {
 	font-size: 14px;
 	color: white;
 	background: #EEEFE4;
-	background-image:url(images/bg.jpg);
+	background-image:url(../images/bg.jpg);
 	background-repeat:repeat-x;
 }
-*
+	
 
+*
+	
 {
   margin: 0  0 auto  ;
  text-align:center;
  }
  
-
  #naslov {
 
 	width: 75%;
@@ -34,36 +34,28 @@ body {
 	font-size: 18px;
 
 }
-legend {
- font-weight:  bold;
- }
 
 .sadrzaj {
 
 	text-align:center;
+
 }
 
 .sadrzaj fieldset {
-	width:20%;
+	width:50%;
 	display:inline;
 	margin-left:auto;
 	margin-right:auto;
-	text-align:center;
+	text-align:center; 
 	background-color:mediumblue;
 }
-.sadrzaj table {
-	width:50%;
-	margin-left:auto;
-	margin-right:auto;
-	text-align:center;
-	height: 40px;
-}
+
 
  #container{
-  display: block; 
-  height:auto;
+  display: inline; 
+  height:50%;
   position: relative; 
-  width: 960px;
+  width: 50%;
 }
 .off
 {
@@ -81,13 +73,13 @@ float:left;
 {
 width:204px;
 height:14px;
-background-image:url(images/leftmenu_top.png);
+background-image:url(../images/leftmenu_top.png);
 }
 #leftmenu_bottom
 {
 width:204px;
 height:14px;
-background-image:url(images/leftmenu_bottom.png);
+background-image:url(../images/leftmenu_bottom.png);
 }
 #leftmenu_main
 {
@@ -132,7 +124,7 @@ padding-left:12px;
 padding-top:4px;
 height:30px;
 text-align:left;
-background-image:url(images/leftmenu_link.png);
+background-image:url(../images/leftmenu_link.png);
 background-repeat:repeat-x;
 margin-top:5px;
 color:#FFFFFF;

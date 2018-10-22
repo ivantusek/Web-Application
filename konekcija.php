@@ -1,7 +1,7 @@
 <?php
-	$konekcija = mysql_connect('localhost', 'root', '') or
+	$konekcija = mysql_connect('localhost:3307', 'root', '') or
 	die('Unable to connect. Check connection parameters.');
-	mysql_select_db('baza', $konekcija) or
+	mysql_select_db('webapp', $konekcija) or
 	die(mysql_error($konekcija));
 	
 	$test1 = mysql_query("SHOW TABLES LIKE korisnici");

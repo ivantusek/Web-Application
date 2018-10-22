@@ -4,18 +4,17 @@ body {
 	background: #EEEFE4;
 	font: 14px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-image:url(images/bg.jpg);
+	background-image:url(../images/bg.jpg);
 	background-repeat:repeat-x;
 }
 
-
 .link { text-align: center; clear: both; padding: 20px 0; }
-.link a { color: #333333; text-decoration:none; }
-a:link { text-decoration:none;}
+.link a { color: #333333; }
+a:link { text-decoration:none; }
 
 .wrapper {
-	width: 400px;
-	margin: 325px auto;
+	width: 460px;
+	margin: 250px auto;
 }
 
 /* Form 1 style */
@@ -86,7 +85,7 @@ a:link { text-decoration:none;}
 
 .inputcontent input {
 	padding: 5px;
-	height: 25px;
+	height: 18px;
 	width: 200px;
 	line-height: 18px;
 	border: 1px solid #c7c7c7;

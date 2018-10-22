@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="stylesheet" type="text/css" href="izmjeni_stil.css" />
+		<link rel="stylesheet" type="text/css" href="css/izmjeni_stil.css" />
 		<title> Diplomski rad </title>
 	</head>
 
