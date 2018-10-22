@@ -1,7 +1,7 @@
 <?php
 
       // Spoj na bazu
-		include "konekcija.php";
+		include "config/konekcija.php";
 		
 	//ako smo stisnuli gumb za upis tada upisi u bazu
 	if ($_POST["spremi"]){

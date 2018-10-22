@@ -1,7 +1,7 @@
 
 <?php
 //spoj na bazu
-	include "konekcija.php";
+	include "config/konekcija.php";
 
 //klik na tipku login
 	if (isset($_POST['login'])) { 

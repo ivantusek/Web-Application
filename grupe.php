@@ -117,7 +117,7 @@
 	</form>
 		<br><br>
 							<?php
-							include "konekcija.php";
+							include "config/konekcija.php";
 							include "grupe_ispis.php";
 
 							?>

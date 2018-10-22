@@ -145,7 +145,7 @@
 					  <td><select  name="grupa" />
 						<option value=" ">Nema</option>';
 						<?php
-							include "konekcija.php";
+							include "config/konekcija.php";
 							$query="SELECT * FROM grupe";
 							$q=mysql_query($query);
 							$brojgrupa = mysql_num_rows($q);

@@ -83,7 +83,7 @@
 			
 			<br><br>
 			<?php
-		include "konekcija.php";
+		include "config/konekcija.php";
 		include "ispis_kontakata_ok.php";
 			?>
 			<br><br>	

@@ -4,7 +4,7 @@
 		{
 			
            // Spoj na bazu
-			include "konekcija.php";
+			include "config/konekcija.php";
 			$sql_forma="INSERT INTO kontakti (ime, prezime, titula, zvanje, grad, adresa, e_mail, code, grupa) 
 						VALUES ('$_POST[ime]', '$_POST[prezime]', '$_POST[titula]','$_POST[zvanje]','$_POST[grad]','$_POST[adresa]','$_POST[email]','$_POST[code]','$_POST[grupa]')";
 			//provjera jesu li podaci uspjesno upisani

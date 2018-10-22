@@ -3,7 +3,7 @@
  ob_start(); 
 	if (isset($_POST['trazenje'])) {
 	
-	include "konekcija.php";
+	include "config/konekcija.php";
 	$col = $_POST['ime'];
 	$col = addslashes($col);
 	$col2 = $_POST['prezime'];

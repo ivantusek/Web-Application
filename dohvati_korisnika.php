@@ -50,7 +50,7 @@
 		<h3> Dohvaceni korisnik  </h3>
 		<div class="sadrzaj">
 		<?php
-	include "konekcija.php";
+	include "config/konekcija.php";
 	//provjeravamo je li korisnik kliknuo gumb za spremanje uredenih podataka
 	if (!isset($_POST["spremi"]))
 		{

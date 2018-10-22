@@ -4,7 +4,7 @@
 	if (isset($_POST['spremi']))
 		{
   
-			include "konekcija.php";
+			include "config/konekcija.php";
 			$sql_forma="INSERT INTO grupe (id, ime ) 
 						VALUES ('', '$_POST[grupa]')";
 			

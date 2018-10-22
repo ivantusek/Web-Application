@@ -84,7 +84,7 @@
 		<br><br>
 		<?php
 		
-		include "konekcija.php";
+		include "config/konekcija.php";
 		include "ispis_korisnika_ok.php";
 		
 		?>

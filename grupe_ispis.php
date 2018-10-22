@@ -1,5 +1,5 @@
 <?php
-include "konekcija.php";
+include "config/konekcija.php";
 $sql_upit = "SELECT COUNT(*) FROM grupe"; 
 $result = mysql_query($sql_upit);
 $r = mysql_fetch_row($result);

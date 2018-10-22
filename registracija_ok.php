@@ -1,7 +1,7 @@
  
  <?php
  //spoj na bazu
- include "konekcija.php";
+ include "config/konekcija.php";
  
  // kada se klikne registracija tipka
 	if (isset($_POST['register'])) { 

@@ -53,7 +53,7 @@
 		<br/><br/>
 		<form method="post" action="">
 	<?php
-		include "konekcija.php";
+		include "config/konekcija.php";
 			$sql_upit = "SELECT COUNT(*) FROM kontakti"; 
 			$result = mysql_query($sql_upit);
 			$r = mysql_fetch_row($result);

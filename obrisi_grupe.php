@@ -1,5 +1,5 @@
 <?php
-		include "konekcija.php";
+		include "config/konekcija.php";
 	
 			
 		if ($_GET["brisanje"]=="brisi")
